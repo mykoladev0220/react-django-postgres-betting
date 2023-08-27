@@ -13,8 +13,14 @@ import { Box, useMediaQuery } from '@mui/material';
 import Checkbox from '@mui/material/Checkbox';
 
 const CssTextField = styled(TextField)({
+    "& label": {
+      color: "white",
+    },
+    "& input::placeholder": {
+        color: "white",
+    },
     '& label.Mui-focused': {
-        color: '#A0AAB4',
+        color: 'white',
     },
     '& .MuiInput-underline:after': {
         borderBottomColor: '#B2BAC2',
